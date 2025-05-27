@@ -29,9 +29,11 @@ url: "https://bbaros.github.io" # the base hostname & protocol for your site, e.
 github_username:  bbaros
 
 # Build settings
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
+
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -52,3 +54,16 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
