@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Creating Simple Matt Levine's Money Stuff Reader"
-date:   2025-05-27
+date:   2025-05-29
 categories: post
 tags: blog code llm finance roocode jules
 ---
@@ -23,6 +23,6 @@ The process was:
 
 All in all, fun little project that took about 3 hours and let me learn more about the AI tools available to developers. 
 
-The app can be accessed at [https://bbaros.github.io/matt_reader/](https://bbaros.github.io/matt_reader/)
+The app can be accessed at [https://bojanbaros.com/money_reader/](https://bojanbaros.com/money_reader/)
 
-The GitHub repo is at [https://github.com/bbaros/matt_reader](https://github.com/bbaros/matt_reader)
+The GitHub repo is at [https://github.com/bbaros/money_reader](https://github.com/bbaros/money_reader)
