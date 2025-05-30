@@ -28,6 +28,8 @@ url: "https://bbaros.github.io" # the base hostname & protocol for your site, e.
 # twitter_username: jekyllrb
 github_username:  bbaros
 
+encoding: utf-8
+
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 
